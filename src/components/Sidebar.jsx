@@ -1,13 +1,14 @@
 import React from "react";
 import { categories } from "../utils/constants";
 
-const selectedCategory = "New";
 
-const Sidebar = () => {
+
+const Sidebar = ({ selectedCategory, setSelectedCategory }) => {
   return (
     <div className="flex flex-row md:flex-col overflow-y-auto h-auto md:h-[95%] gap-4 md:gap-6 scrollbar-hide mx-4 md:mx-0 md:py-6">
       {categories.map((category) => (
         <button
+        onClick={() => setSelectedCategory(category.name)}
           className={`${
             category.name === selectedCategory && "bg-[#FC1503]"
           } flex justify-start items-center text-white rounded-full px-3 py-3 hover:bg-[#FC1503] group md:mx-4`}
