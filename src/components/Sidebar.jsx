@@ -5,7 +5,7 @@ import { categories } from "../utils/constants";
 
 const Sidebar = ({ selectedCategory, setSelectedCategory }) => {
   return (
-    <div className="flex flex-row md:flex-col overflow-y-auto h-auto md:h-[95%] gap-4 md:gap-6 scrollbar-hide mx-4 md:mx-0 md:py-6">
+    <div className="flex flex-row md:flex-col overflow-y-auto h-auto md:h-[95%] gap-4 md:gap-6 scrollbar-hide mx-4 md:mx-0 py-2 md:py-6">
       {categories.map((category) => (
         <button
         onClick={() => setSelectedCategory(category.name)}

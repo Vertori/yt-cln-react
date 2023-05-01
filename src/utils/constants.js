@@ -29,3 +29,10 @@ export const categories = [
   { name: "Gym", icon: TbBarbell },
   { name: "Crypto", icon: FaBitcoin },
 ];
+
+export const demoThumbnailUrl = 'https://d-art.ppstatic.pl/kadry/k/r/1/29/87/62a0a7e0a9b93_o_medium.jpg';
+export const demoChannelUrl = '/channel/UC0gOiF-21O9Mct1AFpPeXfQ';
+export const demoVideoUrl = '/video/XdKzUbAiswE';
+export const demoChannelTitle = 'Disney Studios';
+export const demoVideoTitle = 'Turning Red | Official Trailer';
+export const demoProfilePicture = 'http://dergipark.org.tr/assets/app/images/buddy_sample.png'
