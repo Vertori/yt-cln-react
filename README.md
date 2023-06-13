@@ -7,7 +7,7 @@
   <h1 align="center">YouTube Clone Website</h1>
 
   <p align="center">
-    <a href=""><strong>Live Website »</strong></a>
+    <a href="https://yt-clone-react-rf.netlify.app/" target="_blank"><strong>Live Website »</strong></a>
     <br/>
     <br/>
   </p>
@@ -55,7 +55,7 @@ YouTube-inspired website built using React JS and designed using Tailwind CSS. W
 To get started with this project, simply clone the repository:
 
 ```bash
-git clone https://github.com/Vertori/tsl-cln-react.git
+git clone https://github.com/Vertori/yt-cln-react.git
 ```
 
 To setup API, go to [Rapid API Website](https://rapidapi.com/) and create an account.<br/>
